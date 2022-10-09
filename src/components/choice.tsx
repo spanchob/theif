@@ -43,6 +43,7 @@ function Choice(props: {
 				return condition.a <= condition.b;
 			} else if (condition.conditional === "intersect") {
 				var result = _.intersection(condition.a, condition.b);
+				console.log(result);
 				if (result.length === condition.b.length) {
 					return true;
 				} else {
@@ -55,7 +56,6 @@ function Choice(props: {
 	useEffect(() => {
 		if (choice.length !== 0 && parseCondition(props.condition) === false) {
 			var newState = _.cloneDeep(props.state);
-			console.log(props.state);
 			var oldModifierParsed = splitInTwos(choice[0].modifier.split(" "));
 			oldModifierParsed.forEach((modifier) => {
 				newState[modifier[1]] =
@@ -133,7 +133,7 @@ function Choice(props: {
 							<div className="choice-image">
 								<img
 									className="choice-image"
-									src={"celebs/" + choice.image}
+									src={"/celebs/" + choice.image}
 									alt={choice.name}
 								/>
 							</div>

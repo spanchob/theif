@@ -1,7 +1,7 @@
 import React from "react";
-import "./styles/isekai.css";
+import "./styles/theif.css";
 import Choice from "./components/choice";
-import data from "./data/isekai.json";
+import data from "./data/theif.json";
 import Paragraph from "./components/paragraph";
 import { useState } from "react";
 import Ending from "./components/ending";
@@ -42,25 +42,29 @@ function App() {
 
 	function conditionParser(condition?: {
 		conditional: string;
-		a: string;
+		a: string[];
 		b: any;
 	}) {
 		if (condition) {
-			var aArray = condition.a.split(".");
-			var a: any;
-			if (gameState[aArray[0]] && aArray[1]) {
-				a = [];
-				gameState[aArray[0]].forEach((celeb: any) => {
-					a.push(celeb[aArray[1]]);
-				});
-			} else if (gameState[aArray[0]]) {
-				a = gameState[aArray[0]];
-			} else {
-				a = "";
-			}
+			var ayys: any[] = [];
+			condition.a.forEach((ayy: string) => {
+				var a: any;
+				var aArray = ayy.split(".");
+				if (gameState[aArray[0]] && aArray[1]) {
+					a = [];
+					gameState[aArray[0]].forEach((celeb: any) => {
+						ayys.push(celeb[aArray[1]]);
+					});
+				} else if (gameState[aArray[0]]) {
+					a = gameState[aArray[0]];
+				} else {
+					a = "";
+				}
+			});
+			console.log(ayys);
 			return {
 				conditional: condition.conditional,
-				a: a,
+				a: ayys,
 				b: condition.b,
 			};
 		} else return null;
@@ -80,7 +84,7 @@ function App() {
 					<div className="main-title">{data.title}</div>
 					<div className="paragraph">{data.description}</div>
 				</div>
-				{data.data.map((component) => {
+				{data.data.map((component: any) => {
 					if (component.type === "choice" && component.choices) {
 						return (
 							<Choice
@@ -128,6 +132,8 @@ function App() {
 								traits={component.traits}
 								data={component.data}
 								stateTraits={stateTraits}
+								gameState={gameState}
+								setState={setGameState}
 							></Ending>
 						);
 					} else {

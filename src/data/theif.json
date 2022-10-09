@@ -1,0 +1,537 @@
+{
+	"title": "The Casino",
+	"description": "A heist adventure CYOA by u/spanchob",
+	"data": [
+		{
+			"type": "paragraph",
+			"title": "Introduction",
+			"description": [
+				"You are a retired high class theif who has done many heists in the past. However recently you recieved an anonymous tip about a flaw in the security of the Balmoral Casino. Seeing the immense fortune that could be made you decide to put on the mask once more and do one final heist to end your career.",
+				"You need to assemble a crew (of hot women, obviously) to assist you in your heist and to take care of your more baser needs. They are of course in it for the money and for your girthy cock. Each women provides stats that decide what ending you get.",
+				"Desire is representative of the overall libido and greed of the crew. A high desire increases their effeciency and leads to more sex (Keep as high as possible)",
+				"Stealth is representative of the skill of the crew. A high stealth value will ensure that the heist goes through successfully (Keep as high as possible)",
+				"Loyalty is representative of how loyal your crew is. A loyal crew will follow your orders and lead to a successful heist (Keep as high as possible)",
+				"Overall, maximise the DSL value for a successful heist."
+			]
+		},
+		{
+			"type": "choice",
+			"title": "Partner",
+			"description": "Your partner in crime and also your wife. Your partner helps plan the heist and keeps your crew in check, generally by punishing them with brutal sex or rewarding them with sensual pleasureful sex. Either way, you get to watch and if you want dish out some punishment or reward as well. You fuck her to sleep every night and live with her in your modern mansion. She gets 20% of the heist money.",
+			"choices": [
+				{
+					"name": "Selena Gomez",
+					"image": "SelenaGomez/3.jpg",
+					"modifier": "+2 Desire",
+					"perk": "Unlock Gymnast",
+					"description": "Selena used to be your best friend's sister. A kleptonymphomaniac, she gets super horny by stealing things and needs a dick inside her everytime she steals something. Luckily for you, your dick is the one that helps keep her needs in check often. She often steals things from your neighbhors and brings them to you so that you may reward her with rough doggystyle sex."
+				},
+				{
+					"name": "Victoria Justice",
+					"image": "VictoriaJustice/2.jpg",
+					"modifier": "+2 Skill",
+					"perk": "Unlock Spy",
+					"description": "Victoria was the former princess of the nation, who had to go into hiding after the revolution. Coming from a life of luxury, she wanted all of her wealth back and as such decided to steal things for a living. You first encountered her when you were stealing a jewel from the national treasury and you two instantly felt a connection. You both had sex right then and there, inside the treasury vault room."
+				},
+				{
+					"name": "Penelope Cruz",
+					"image": "PenelopeCruz/3.jpg",
+					"modifier": "+2 Loyalty",
+					"perk": "Unlock Dealer",
+					"description": "Penelope was the housewife of a rich hollywood actor who was much older than her. When you were stealing valuable paintings from the actor's house, Penelope saw you. Instead of reporting you she told you where all the valuables were to get revenge on the actor who mistreated her. As a reward, you took her with you to your mansion and fucked her senseless. From then on, she has been your loyal wife and pet."
+				}
+			],
+			"pick": 1
+		},
+		{
+			"type": "choice",
+			"title": "Gymnast",
+			"description": "Selena suggested that you should include her gymnast friend in the crew. She would help enter and exit the vault without triggering any alarms. To test her skills, you and Selena ask her to strip and take up various positions. Eventually, after seeing her flexibility for a while you wanted to see how she is able to keep her cool under presure, by fucking her as she stretched. You and Selena then gave her a night she will remember forever, after which she agreed to join your crew. She gets 5% of the heist money",
+			"choices": [
+				{
+					"name": "Summer Glau",
+					"image": "SummerGlau/5.jpg",
+					"modifier": "+1 Desire",
+					"perk": "",
+					"description": ""
+				},
+				{
+					"name": "Violett Beane",
+					"image": "ViolettBeane/2.jpg",
+					"modifier": "+1 Skill",
+					"perk": "",
+					"description": ""
+				},
+				{
+					"name": "Maisie Williams",
+					"image": "MaisieWilliams/4.jpg",
+					"modifier": "+1 Loyalty",
+					"perk": "",
+					"description": ""
+				}
+			],
+			"pick": 1,
+			"condition": {
+				"conditional": "intersect",
+				"a": [
+					"Partner.name"
+				],
+				"b": [
+					"Selena Gomez"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"title": "Spy",
+			"description": "Victoria suggested that you should inculde her spy friend, who helped her escape when her family was captured by the revolution, in the crew to spy on the owner. She would spy on the owner and give you all the ins and outs of the casino so that you can plan your heist better. To give you this information, she would come to your room as a hooker and spend the night with you so as to not arrouse any suspiscion, before leaving the information on a note in the morning. She gets 5% of the heist money.",
+			"choices": [
+				{
+					"name": "Megan Fox",
+					"image": "MeganFox/4.jpg",
+					"modifier": "+1 Desire",
+					"perk": "",
+					"description": ""
+				},
+				{
+					"name": "Katie McGrath",
+					"image": "KatieMcGrath/3.jpg",
+					"modifier": "+1 Skill",
+					"perk": "",
+					"description": ""
+				},
+				{
+					"name": "Nathalie Emmanuel",
+					"image": "NathalieEmmanuel/5.jpg",
+					"modifier": "+1 Loyalty",
+					"perk": "",
+					"description": ""
+				}
+			],
+			"pick": 1,
+			"condition": {
+				"conditional": "intersect",
+				"a": [
+					"Partner.name"
+				],
+				"b": [
+					"Victoria Justice"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"title": "Dealer",
+			"description": "Penelope suggests that you should seduce and include a dealer from the casino into your crew. You go to the casino under disguise and seduce a dealer. After giving her the best fuck of her life, you offer her to join your crew and reap the rewards. Blinded by her lust towards you, she joins the crew and agrees the distract the guards when your crew performs the heist. In exchange, you have to keep replenishing her lust by fucking her until she can't walk. She gets 5% of the heist money.",
+			"choices": [
+				{
+					"name": "Lily Collins",
+					"image": "LilyCollins/1.jpg",
+					"modifier": "+1 Desire",
+					"perk": "",
+					"description": ""
+				},
+				{
+					"name": "Zoey Deutch",
+					"image": "ZoeyDeutch/2.jpg",
+					"modifier": "+1 Skill",
+					"perk": "",
+					"description": ""
+				},
+				{
+					"name": "Karen Gillian",
+					"image": "KarenGillian/3.jpg",
+					"modifier": "+1 Loyalty",
+					"perk": "",
+					"description": ""
+				}
+			],
+			"pick": 1,
+			"condition": {
+				"conditional": "intersect",
+				"a": [
+					"Partner.name"
+				],
+				"b": [
+					"Penelope Cruz"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"title": "Hacker",
+			"description": "Your crew's hacker will allow you and your crew to do the heist without having to worry about security cameras and electronic doors. She is a shy nerd who only recently lost her virginity and as such is obsessed with sex. You as the heist leader, decide to teach her the intricacies of sex personally, making her your personal submissive slut. By the time you are done with her training, she wants you to fuck her as she hacks into systems on her laptop. She gets 5% of the heist money.",
+			"choices": [
+				{
+					"name": "Emily Ratajkowski",
+					"image": "EmilyRatajkowski/4.jpg",
+					"modifier": "+1 Desire",
+					"perk": "",
+					"description": "Emily was a slut throughout college, however weirdly she only lost her virginity during graduation. She got extra classes from her professors by blowing, flashing and titfucking them, so that she could pass her classes. These extra classes also made her a good hacker, which is always a perk. You fulfil her libido in exchange for her commiting to your illegal activities. You often find her roaming around in lingerie, giving you the \"fuck me eyes\", which get you horny enough to fuck her right then and there."
+				},
+				{
+					"name": "Katherine McNamara",
+					"image": "KatherineMcNamara/5.jpg",
+					"modifier": "+1 Skill",
+					"perk": "",
+					"description": "Katherine worked as a hacker for a cybersecurity firm. When she lost her virginity, she went AWOL on her firm and spent all her money, going to parties and hooking up with random college students. You and your partner met her in one of these parties and hooked up with her. Once you found out she had more hacking experience than anyone you knew, you decided to hire her for the crew. Of course, to intice her you give her regular, kinky sex."
+				},
+				{
+					"name": "Natalie Portman",
+					"image": "NataliePortman/10.jpg",
+					"modifier": "+1 Loyalty",
+					"perk": "",
+					"description": "Natalie was an older woman who was married to one of your friends who didn't love her. She had never had sex with her husband, so when a burgler came in and fucked her, something awoke inside of her and she realised that she had a submissive kink. As such, once her husband died and his will gave all of his property to you, she offered herself as well. You made her your sex slave and used her hacking skills for heists in exchange for fulfilling her submissive fantasies."
+				}
+			],
+			"pick": 1
+		},
+		{
+			"type": "choice",
+			"title": "Seducer",
+			"description": "Your crew's seducer will seduce the head of security, allowing your crew to perform the heist while he is distracted. In order to train her for this mission, you make her undergo training simulations, where her and your partner will both try to take you to your bedroom from the bar. Whoever is sucessful get to dominate the other alongside you for the night. Regardless of who wins, you get to have crazy sex with 2 hot women who both want you. She gets 5% of the heist money",
+			"choices": [
+				{
+					"name": "Emilia Clarke",
+					"image": "EmiliaClarke/6.jpg",
+					"modifier": "+1 Desire",
+					"perk": "Unlock Mother of Dragons",
+					"description": "Emilia was a high class escort, providing her services to politicians, billionares and rich criminals. You hired her by promising her a share of the heist money, which would be enough to pay her high charges. While she was happy to work for the money, she also had some more baser needs. She explained that part of reason she works as an escort is to get large dicks inside her. When you showed her your huge dick, she agreed to join your crew, before taking off her clothes and riding you in cowgirl."
+				},
+				{
+					"name": "Taylor Swift",
+					"image": "TaylorSwift/3.jpg",
+					"modifier": "+1 Skill",
+					"perk": "",
+					"description": "Taylor used to be an agent for the CIA, and as such she was trained in all sorts of seduction techniques. While her skills as a seducer were amazing, her skills in sex were not up to the mark, since generally she would kill her victim after seducing them, rather than actually have sex with them. Luckily, you were able to train her in satisfying men by using your massive cock to stretch out her pussy and train her to make a man cum multiple times."
+				},
+				{
+					"name": "Joey King",
+					"image": "JoeyKing/4.jpg",
+					"modifier": "+1 Loyalty",
+					"perk": "Unlock 1/2 of Sisterly Love",
+					"description": "Joey was the daughter of a rich family, and as such was trained in courting men in order to get married. She however, ran away from her family and started making a living by seducing and then robbing rich men. When she tried to rob you after seducing you, you caught her red handed and handcuffed her. You then proceeded to punish her as she coyly moaned for \"Daddy\" to be gentle on her body. Once you punished her she would try and seduce you every night, only to then get punished in the morning."
+				}
+			],
+			"pick": 1
+		},
+		{
+			"type": "photopara",
+			"title": "Extra: Mother of Dragons",
+			"celeb": {
+				"name": "Rose Leslie",
+				"image": "RoseLeslie/3.jpg"
+			},
+			"description": [
+				"One day when you were going through a simulation with Emilia, she introduced her friend's daughter, Rose. She informed you that Rose is a virgin who wants to work as a high end escort.",
+				"In order to prepare her for the job, she asks you to train her in sex. You oblige and take her to your room. After taking her clothes off, you start with foreplay by sucking on her tits and licking her pussy. You then make her suck your cock.",
+				"\"Oh shit, that's so big sir! I don't know if I can take it all in my mouth!\" she says. Seeing this you take a hold of her head by her hair and force your dick down her throat only to hear her gag. You then pick her up by her hair and bend her over.",
+				"\"FUCK FUCK THAT FEELS SO GOOD SIR!\" Rose exclaimed as you took her virginity. You then made her cum all over your dick, before cumming deep inside her. Afterwards you spent the whole night covering Rose in cum, before giving her her clothes back and asking her to leave."
+			],
+			"condition": {
+				"conditional": "intersect",
+				"a": [
+					"Seducer.name"
+				],
+				"b": [
+					"Emilia Clarke"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"title": "Ninja",
+			"description": "Your crew's ninja has the important job of sneaking into the casino vault room and bring the money out. To do this, she needs to be extremely quiet even in stressful situations. To do this you take her to all sorts of public places and fuck her roughly. If she makes a noise or gets caught, you take her home and punish her for failing her training. If she passes her training, you reward her with a creampie and treats of all kind. She gets 5% of the heist money.",
+			"choices": [
+				{
+					"name": "Gal Gadot",
+					"image": "GalGadot/11.jpg",
+					"modifier": "+1 Desire",
+					"perk": "",
+					"description": "Gal was a marine in the Israeli military. As the military was dominated by men, she was used to letting her superiors use her body to get ahead. She would often have gangbangs in the showers with the officers in order to get promoted. One day she got caught and was threatened with a court martial. Luckily, she was able to fuck her way out of prison and get out of Israel. She then started working as a theif until she was caught by you. Seeing no way out, she decided to try and fuck her way out with you, only this time she got addicted to your dick."
+				},
+				{
+					"name": "Jamie Chung",
+					"image": "JamieChung/3.jpg",
+					"modifier": "+1 Skill",
+					"perk": "",
+					"description": "Jamie was born in China to a deeply conservative family who wanted her to become a warrior. As such she was trained in fighting and flexibility skills from a very young age. When she came of age, her family wed her off to a strong prince who would fuck her roughly every night, until he died in battle. As a widow, she was destined for a boring life, as such she ran away. When she found you, she decided to have sex with you, so that she may remember how her husband fucked her nubile body."
+				},
+				{
+					"name": "Hunter King",
+					"image": "HunterKing/3.jpg",
+					"modifier": "+1 Loyalty",
+					"perk": "Unlock 1/2 of Sisterly Love",
+					"description": "Hunter was born in noble family, but was kidnapped and sold into slavery as a little kid. She escaped her enslavers and eventually joined a monastry where she learned the ancient martial arts. Raised by women, she was unable to explore her sexuality with men. This alongside daddy issues, make her extremely vulnerable to getting seduced by people like you. You of course, exploit this fact and keep her loyal to you by fucking her as she begs for \"Daddy's love\" inside her."
+				}
+			],
+			"pick": 1
+		},
+		{
+			"type": "photopara",
+			"title": "Extra: Sisterly Love",
+			"celeb": {
+				"name": "Joey and Hunter King",
+				"image": "Threesomes/JoeyKingHunterKing.jpg"
+			},
+			"description": [
+				"One day when you were discussing the heist with your crew, you noticed that your hacker and ninja seemed like they knew each other well. Perhaps a little too well. After the meeting you followed them to see that they are living together.",
+				"When you peeped in through the half-closed door, you found them both taking their clothes off before Hunter wore a strap-on and started fucking Joey. \"YES BIG SIS! Make me cum all over you\" Joey exclaimed as her legs started vibrating.",
+				"Just as Joey came, Hunter saw you peeping on them and without saying anything, simply used her hand to ask you to join in. Seeing the open invitation, you pulled out your dick and put it inside Joey's ass. \"Daddy! What are you doing here! Please don't stop now I need your cock in my ass daddy!\" Joey said, still recovering from her orgasm.",
+				"What followed was you and Hunter giving Joey the time of her life, before Joey and Hunter exchanged positions and you DP'd Hunter. You came inside both their asses and vaginas, and they came 6 times each over your throbbing cock. You three met every week afterwards until the heist was over, to have wet, raw, rough sex."
+			],
+			"condition": {
+				"conditional": "intersect",
+				"a": [
+					"Ninja.name",
+					"Seducer.name"
+				],
+				"b": [
+					"Joey King",
+					"Hunter King"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"title": "Driver",
+			"description": "Your crew's driver is responsible for making sure that the entire crew can make it to the casino and get out with the money. To train your driver, you make her drive in all sorts of stressful situations, from you licking her pussy as she drives to forcing her to give you a handjob as with one hand while having the other on the steering. If she passes these tests, you have her part the car in an isolated place so and you get your partner to fuck her. If she fails, you dominate her in the back of the car. She gets 5% of the heist money.",
+			"choices": [
+				{
+					"name": "Lily James",
+					"image": "LilyJames/5.jpg",
+					"modifier": "+1 Desire",
+					"perk": "",
+					"description": ""
+				},
+				{
+					"name": "Margaret Qualley",
+					"image": "MargaretQualley/1.jpg",
+					"modifier": "+1 Skill",
+					"perk": "",
+					"description": ""
+				},
+				{
+					"name": "Rose Byrne",
+					"image": "RoseByrne/2.jpg",
+					"modifier": "+1 Loyalty",
+					"perk": "Unlock A Friend in Need",
+					"description": ""
+				}
+			],
+			"pick": 1
+		},
+		{
+			"type": "photopara",
+			"title": "Extra: A Friend in Need",
+			"celeb": {
+				"name": "Leighton Meester",
+				"image": "LeightonMeester/3.jpg"
+			},
+			"description": [
+				"One day, Rose explained that she would be unable to come to the heist planning meeting, since she has to give her friend a drive. Touched, you told her to attend the meeting with your partner and you would be able to drive Rose's friend around.",
+				"When you arrived at the location, you found Rose's friend Leighton, who was extremely hot. After driving her around the city and flirting a bit, you dropped her off at her house, at which point she invited you in. Once inside she called you from her bedroom, where she lay on the bed, completely naked.",
+				"\"You like what you see?\" she asks you while playing with her pussy. Without hesitating, you take your clothes off and get on her bed and start making out with her as she gives you a handjob. You then fuck her in sensual missionary while making out with her as she cums all over your dick.",
+				"\"OH MY! YOUR DICK IS SO LARGE I FEEL LIKE ITS GONNA ENTER MY UTERUS!\" she says as you pound her petite body. Several creampies later, you fall asleep on her bed. When you wake up, you have breakfast with her as she blows you under the table, before she leaves to catch her flight out of the city."
+			],
+			"condition": {
+				"conditional": "intersect",
+				"a": [
+					"Driver.name"
+				],
+				"b": [
+					"Rose Byrne"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"title": "Model",
+			"description": "Your crew's model will serve as an excuse for your crew to get into the casino. She has been invited as a guest to the casino for a photoshoot and your crew will appear as her assistants.",
+			"choices": [
+				{
+					"name": "Nicola Cavanis",
+					"image": "NicolaCavanis/5.jpg",
+					"modifier": "+1 Desire",
+					"perk": "",
+					"description": ""
+				},
+				{
+					"name": "Alejandra Guilmant",
+					"image": "AlejandraGuilmant/1.jpg",
+					"modifier": "+1 Skill",
+					"perk": "",
+					"description": ""
+				},
+				{
+					"name": "Miranda Kerr",
+					"image": "MirandaKerr/3.jpg",
+					"modifier": "+1 Loyalty",
+					"perk": "",
+					"description": ""
+				}
+			],
+			"pick": 1
+		},
+		{
+			"type": "choice",
+			"title": "Seller",
+			"description": "",
+			"choices": [
+				{
+					"name": "Elizabeth Olsen",
+					"image": "ElizabethOlsen/4.jpg",
+					"modifier": "+1 Desire",
+					"perk": "",
+					"description": ""
+				},
+				{
+					"name": "Katy Perry",
+					"image": "KatyPerry/4.jpg",
+					"modifier": "+1 Skill",
+					"perk": "",
+					"description": ""
+				},
+				{
+					"name": "Kaya Scodelario",
+					"image": "KayaScodelario/4.jpg",
+					"modifier": "+1 Loyalty",
+					"perk": "",
+					"description": ""
+				}
+			],
+			"pick": 1
+		},
+		{
+			"type": "choice",
+			"title": "Owner",
+			"description": "",
+			"choices": [
+				{
+					"name": "Natalia Dyer",
+					"image": "NataliaDyer/4.jpg",
+					"modifier": "-3 Desire",
+					"perk": "",
+					"description": ""
+				},
+				{
+					"name": "Margot Robbie",
+					"image": "MargotRobbie/2.jpg",
+					"modifier": "-3 Skill",
+					"perk": "",
+					"description": ""
+				},
+				{
+					"name": "Brie Larson",
+					"image": "BrieLarson/5.jpg",
+					"modifier": "-3 Loyalty",
+					"perk": "",
+					"description": ""
+				}
+			],
+			"pick": 1
+		},
+		{
+			"type": "choice",
+			"title": "Rival",
+			"description": "",
+			"choices": [
+				{
+					"name": "Sydney Sweeny",
+					"image": "SydneySweeny/4.jpg",
+					"modifier": "-2 Desire",
+					"perk": "",
+					"description": ""
+				},
+				{
+					"name": "Madelaine Petsch",
+					"image": "MadelainePetsch/4.jpg",
+					"modifier": "-2 Skill",
+					"perk": "",
+					"description": ""
+				},
+				{
+					"name": "Sophie Turner",
+					"image": "SophieTurner/5.jpg",
+					"modifier": "-2 Loyalty",
+					"perk": "",
+					"description": ""
+				}
+			],
+			"pick": 1
+		},
+		{
+			"type": "choice",
+			"title": "Cop",
+			"description": "",
+			"choices": [
+				{
+					"name": "Alison Brie",
+					"image": "AlisonBrie/11.jpg",
+					"modifier": "-1 Desire",
+					"perk": "",
+					"description": ""
+				},
+				{
+					"name": "Amber Heard",
+					"image": "AmberHeard/5.jpg",
+					"modifier": "-1 Skill",
+					"perk": "",
+					"description": ""
+				},
+				{
+					"name": "Debby Ryan",
+					"image": "DebbyRyan/3.jpg",
+					"modifier": "-1 Loyalty",
+					"perk": "",
+					"description": ""
+				}
+			],
+			"pick": 1
+		},
+		{
+			"type": "ending",
+			"traits": {
+				"Desire": {
+					"maximum": false,
+					"upper": 5,
+					"lower": 1
+				},
+				"Skill": {
+					"maximum": false,
+					"upper": 2,
+					"lower": 0
+				},
+				"Loyalty": {
+					"maximum": false,
+					"upper": 2,
+					"lower": 0
+				}
+			},
+			"title": "Complete Aristocracy Ending",
+			"description": "Your efforts help establish a new aristocratic commonwealth. The Duchess marries you making you a duke of the commonwealth. You convince all of the women you selected to join your harem. You also receive a large manor where you house your harem alongwith your wife and her daughter, Taylor.",
+			"data": [
+				{
+					"type": "choice",
+					"title": "Cousins",
+					"description": "As a count, you have entered a family with many branches and thus have many cousins, most of whom are hot women. Interestingly, in the aristocracy incest is not only allowed but encouraged to keep the bloodline pure. As such, many of your cousins want you to fuck them and want to join your harem. (Choose 3)",
+					"pick": 3,
+					"choices": [
+						{
+							"name": "Madison Beer",
+							"image": "MadisonBeer/1.jpg"
+						},
+						{
+							"name": "Camila Mendes",
+							"image": "CamilaMendes/1.jpg"
+						},
+						{
+							"name": "Zendaya Coleman",
+							"image": "ZendayaColeman/1.jpg"
+						}
+					]
+				}
+			]
+		}
+	]
+}

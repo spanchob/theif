@@ -1,5 +1,6 @@
 import Choice from "./choice";
 import _ from "lodash";
+import Photopara from "./photopara";
 
 function Ending(props: {
 	title: string;
@@ -7,7 +8,35 @@ function Ending(props: {
 	description: string;
 	data: any;
 	stateTraits: any;
+	gameState: any;
+	setState: any;
 }) {
+	function conditionParser(condition?: {
+		conditional: string;
+		a: string;
+		b: any;
+	}) {
+		if (condition) {
+			var aArray = condition.a.split(".");
+			var a: any;
+			if (props.gameState[aArray[0]] && aArray[1]) {
+				a = [];
+				props.gameState[aArray[0]].forEach((celeb: any) => {
+					a.push(celeb[aArray[1]]);
+				});
+			} else if (props.gameState[aArray[0]]) {
+				a = props.gameState[aArray[0]];
+			} else {
+				a = "";
+			}
+			return {
+				conditional: condition.conditional,
+				a: a,
+				b: condition.b,
+			};
+		} else return null;
+	}
+
 	function conditionalChecker() {
 		var checked = 0;
 		var result = false;
@@ -40,16 +69,34 @@ function Ending(props: {
 				<div className="paragraph choices-description">
 					{props.description}
 				</div>
-				{props.data.map((choices: any) => (
-					<Choice
-						choices={choices.choices}
-						maxChoice={choices.pick}
-						description={choices.description}
-						setState={() => {}}
-						state={{}}
-						title={choices.title}
-					></Choice>
-				))}
+
+				{props.data.map((component: any) => {
+					if (component.type === "choice" && component.choices) {
+						return (
+							<Choice
+								title={component.title}
+								choices={component.choices}
+								description={component.description}
+								maxChoice={component.pick}
+								condition={conditionParser(component.condition)}
+								state={{}}
+								setState={() => {}}
+							></Choice>
+						);
+					} else if (
+						component.type === "photopara" &&
+						typeof component.description !== "string"
+					) {
+						return (
+							<Photopara
+								title={component.title}
+								condition={conditionParser(component.condition)}
+								celeb={component.celeb}
+								description={component.description}
+							></Photopara>
+						);
+					} else return <></>;
+				})}
 			</div>
 		);
 	} else {
