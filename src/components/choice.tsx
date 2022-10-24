@@ -32,18 +32,17 @@ function Choice(props: {
 	function parseCondition(condition?: any) {
 		if (condition && condition.conditional) {
 			if (condition.conditional === "equals") {
-				return condition.a === condition.b;
+				return condition.a[0] === condition.b[0];
 			} else if (condition.conditional === "gt") {
-				return condition.a > condition.b;
+				return condition.a[0] > condition.b[0];
 			} else if (condition.conditional === "lt") {
-				return condition.a < condition.b;
+				return condition.a[0] < condition.b[0];
 			} else if (condition.conditional === "gte") {
-				return condition.a >= condition.b;
+				return condition.a[0] >= condition.b[0];
 			} else if (condition.conditional === "lte") {
-				return condition.a <= condition.b;
+				return condition.a[0] <= condition.b[0];
 			} else if (condition.conditional === "intersect") {
 				var result = _.intersection(condition.a, condition.b);
-				console.log(result);
 				if (result.length === condition.b.length) {
 					return true;
 				} else {
@@ -75,6 +74,7 @@ function Choice(props: {
 				.getElementById(selection.name)
 				?.classList.contains("selected")
 		) {
+			document.getElementById(selection.name)?.classList.add("selected");
 			const newChoice = choice;
 			newChoice.push(selection);
 
@@ -100,6 +100,8 @@ function Choice(props: {
 				newChoice.shift();
 			}
 
+			console.log(newChoice);
+
 			modifierParsed.forEach((modifier) => {
 				newState[modifier[1]] =
 					newState[modifier[1]] + parseInt(modifier[0]);
@@ -107,7 +109,6 @@ function Choice(props: {
 			_.set(newState, props.title, choice);
 
 			setChoice(newChoice);
-			document.getElementById(selection.name)?.classList.add("selected");
 
 			props.setState(newState);
 		}
@@ -124,43 +125,47 @@ function Choice(props: {
 					<></>
 				)}
 				<div className="choice-box">
-					{props.choices.map((choice) => (
-						<div
-							className="choice-card"
-							id={choice.name}
-							onClick={() => onSelect(choice)}
-						>
-							<div className="choice-image">
-								<img
-									className="choice-image"
-									src={"/celebs/" + choice.image}
-									alt={choice.name}
-								/>
+					{props.choices.map((choice) =>
+						choice ? (
+							<div
+								className="choice-card"
+								id={choice?.name}
+								onClick={() => onSelect(choice)}
+							>
+								<div className="choice-image">
+									<img
+										className="choice-image"
+										src={"/celebs/" + choice?.image}
+										alt={choice?.name}
+									/>
+								</div>
+								<div className="name">{choice?.name}</div>
+								{choice?.modifier ? (
+									<div className="modifier">
+										{choice?.modifier}
+									</div>
+								) : (
+									<></>
+								)}
+								{choice?.description ? (
+									<div className="paragraph">
+										{choice?.description}
+									</div>
+								) : (
+									<></>
+								)}
+								{choice?.perk ? (
+									<div className="modifier">
+										{"Perk: " + choice?.perk}
+									</div>
+								) : (
+									<></>
+								)}
 							</div>
-							<div className="name">{choice.name}</div>
-							{choice.modifier ? (
-								<div className="modifier">
-									{choice.modifier}
-								</div>
-							) : (
-								<></>
-							)}
-							{choice.description ? (
-								<div className="paragraph">
-									{choice.description}
-								</div>
-							) : (
-								<></>
-							)}
-							{choice.perk ? (
-								<div className="modifier">
-									{"Perk: " + choice.perk}
-								</div>
-							) : (
-								<></>
-							)}
-						</div>
-					))}
+						) : (
+							<></>
+						)
+					)}
 				</div>
 			</div>
 		);

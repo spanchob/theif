@@ -13,25 +13,29 @@ function Ending(props: {
 }) {
 	function conditionParser(condition?: {
 		conditional: string;
-		a: string;
+		a: string[];
 		b: any;
 	}) {
 		if (condition) {
-			var aArray = condition.a.split(".");
-			var a: any;
-			if (props.gameState[aArray[0]] && aArray[1]) {
-				a = [];
-				props.gameState[aArray[0]].forEach((celeb: any) => {
-					a.push(celeb[aArray[1]]);
-				});
-			} else if (props.gameState[aArray[0]]) {
-				a = props.gameState[aArray[0]];
-			} else {
-				a = "";
-			}
+			var ayys: any[] = [];
+			condition.a.forEach((ayy: string) => {
+				var a: any;
+				var aArray = ayy.split(".");
+				if (props.gameState[aArray[0]] && aArray[1]) {
+					a = [];
+					props.gameState[aArray[0]].forEach((celeb: any) => {
+						ayys.push(celeb[aArray[1]]);
+					});
+				} else if (props.gameState[aArray[0]]) {
+					a = props.gameState[aArray[0]];
+					ayys.push(a);
+				} else {
+					a = "";
+				}
+			});
 			return {
 				conditional: condition.conditional,
-				a: a,
+				a: ayys,
 				b: condition.b,
 			};
 		} else return null;
@@ -40,11 +44,14 @@ function Ending(props: {
 	function conditionalChecker() {
 		var checked = 0;
 		var result = false;
+		var currentMax: string | undefined = "";
+		var maximum = "";
+
 		_.forIn(props.traits, (trait: any, key: string) => {
+			console.log(trait);
 			if (trait.maximum) {
-				result =
-					_.max(Object.values(props.stateTraits)) ===
-					props.stateTraits[key];
+				maximum = key;
+				currentMax = _.max(Object.values(props.stateTraits));
 			}
 			if (
 				props.stateTraits[key] <= trait.upper &&
@@ -54,11 +61,16 @@ function Ending(props: {
 			}
 		});
 		if (checked === Object.values(props.stateTraits).length) {
+			result = true;
+		}
+		console.log(result);
+		console.log(currentMax);
+		if (result && maximum === "") {
 			return true;
+		} else if (result) {
+			return props.stateTraits[maximum] === currentMax;
 		} else {
-			return (
-				result && checked === Object.values(props.stateTraits).length
-			);
+			return false;
 		}
 	}
 

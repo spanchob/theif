@@ -11,7 +11,8 @@
 				"Desire is representative of the overall libido and greed of the crew. A high desire increases their effeciency and leads to more sex (Keep as high as possible)",
 				"Stealth is representative of the skill of the crew. A high stealth value will ensure that the heist goes through successfully (Keep as high as possible)",
 				"Loyalty is representative of how loyal your crew is. A loyal crew will follow your orders and lead to a successful heist (Keep as high as possible)",
-				"Overall, maximise the DSL value for a successful heist."
+				"Overall, maximise the DSL value for a successful heist.",
+				"Should any trait be negative by the end, the heist will be considered a fail and you would get no harem."
 			]
 		},
 		{
@@ -23,14 +24,14 @@
 					"name": "Selena Gomez",
 					"image": "SelenaGomez/3.jpg",
 					"modifier": "+2 Desire",
-					"perk": "Unlock Gymnast",
+					"perk": "Unlock Spy",
 					"description": "Selena used to be your best friend's sister. A kleptonymphomaniac, she gets super horny by stealing things and needs a dick inside her everytime she steals something. Luckily for you, your dick is the one that helps keep her needs in check often. She often steals things from your neighbhors and brings them to you so that you may reward her with rough doggystyle sex."
 				},
 				{
 					"name": "Victoria Justice",
 					"image": "VictoriaJustice/2.jpg",
 					"modifier": "+2 Skill",
-					"perk": "Unlock Spy",
+					"perk": "Unlock Gymnast",
 					"description": "Victoria was the former princess of the nation, who had to go into hiding after the revolution. Coming from a life of luxury, she wanted all of her wealth back and as such decided to steal things for a living. You first encountered her when you were stealing a jewel from the national treasury and you two instantly felt a connection. You both had sex right then and there, inside the treasury vault room."
 				},
 				{
@@ -45,26 +46,26 @@
 		},
 		{
 			"type": "choice",
-			"title": "Gymnast",
-			"description": "Selena suggested that you should include her gymnast friend in the crew. She would help enter and exit the vault without triggering any alarms. To test her skills, you and Selena ask her to strip and take up various positions. Eventually, after seeing her flexibility for a while you wanted to see how she is able to keep her cool under presure, by fucking her as she stretched. You and Selena then gave her a night she will remember forever, after which she agreed to join your crew. She gets 5% of the heist money",
+			"title": "Spy",
+			"description": "Selena suggested that you should inculde her spy friend, who helped her escape when her family was captured by the revolution, in the crew to spy on the owner. She would spy on the owner and give you all the ins and outs of the casino so that you can plan your heist better. To give you this information, she would come to your room as a hooker and spend the night with you so as to not arrouse any suspiscion, before leaving the information on a note in the morning. She gets 5% of the heist money.",
 			"choices": [
 				{
-					"name": "Summer Glau",
-					"image": "SummerGlau/5.jpg",
+					"name": "Alice Eve",
+					"image": "AliceEve/4.jpg",
 					"modifier": "+1 Desire",
 					"perk": "",
 					"description": ""
 				},
 				{
-					"name": "Violett Beane",
-					"image": "ViolettBeane/2.jpg",
+					"name": "Lili Reinhart",
+					"image": "LiliReinhart/3.jpg",
 					"modifier": "+1 Skill",
 					"perk": "",
 					"description": ""
 				},
 				{
-					"name": "Maisie Williams",
-					"image": "MaisieWilliams/4.jpg",
+					"name": "Ana de Armas",
+					"image": "AnadeArmas/9.jpg",
 					"modifier": "+1 Loyalty",
 					"perk": "",
 					"description": ""
@@ -83,26 +84,26 @@
 		},
 		{
 			"type": "choice",
-			"title": "Spy",
-			"description": "Victoria suggested that you should inculde her spy friend, who helped her escape when her family was captured by the revolution, in the crew to spy on the owner. She would spy on the owner and give you all the ins and outs of the casino so that you can plan your heist better. To give you this information, she would come to your room as a hooker and spend the night with you so as to not arrouse any suspiscion, before leaving the information on a note in the morning. She gets 5% of the heist money.",
+			"title": "Gymnast",
+			"description": "Victoria suggested that you should include her gymnast friend in the crew. She would help enter and exit the vault without triggering any alarms. To test her skills, you and Selena ask her to strip and take up various positions. Eventually, after seeing her flexibility for a while you wanted to see how she is able to keep her cool under presure, by fucking her as she stretched. You and Selena then gave her a night she will remember forever, after which she agreed to join your crew. She gets 5% of the heist money",
 			"choices": [
 				{
-					"name": "Megan Fox",
-					"image": "MeganFox/4.jpg",
+					"name": "Summer Glau",
+					"image": "SummerGlau/5.jpg",
 					"modifier": "+1 Desire",
 					"perk": "",
 					"description": ""
 				},
 				{
-					"name": "Katie McGrath",
-					"image": "KatieMcGrath/3.jpg",
+					"name": "Violett Beane",
+					"image": "ViolettBeane/2.jpg",
 					"modifier": "+1 Skill",
 					"perk": "",
 					"description": ""
 				},
 				{
-					"name": "Nathalie Emmanuel",
-					"image": "NathalieEmmanuel/5.jpg",
+					"name": "Maisie Williams",
+					"image": "MaisieWilliams/4.jpg",
 					"modifier": "+1 Loyalty",
 					"perk": "",
 					"description": ""
@@ -302,21 +303,21 @@
 					"image": "LilyJames/5.jpg",
 					"modifier": "+1 Desire",
 					"perk": "",
-					"description": ""
+					"description": "Lily was raised in a cult, where she was made to have sex with older men from a very young age. When she grew up, she found herself attracted to these older men, wanting to be their \"Little Princess\". When the cult eventually collapsed, she found herself homeless and without a father figure to pleasure her. You were able to provide her both those things when you found her masterbating in a your car that she stole. You fucked her in that car and she has been your little fuckslut ever since, wanting nothing more than your complete attention and love."
 				},
 				{
 					"name": "Margaret Qualley",
-					"image": "MargaretQualley/1.jpg",
+					"image": "MargaretQualley/5.jpg",
 					"modifier": "+1 Skill",
 					"perk": "",
-					"description": ""
+					"description": "Margaret used to be a racing driver in Belgium, however she quit once her father died in a car accident. While she was from a rich family, her father's death led to the loss of the family fortune to vultures from everywhere. She moved to the US, looking to start a new life, only to fail miserably and take up the job of a taxi driver. When you sat in her taxi, you immediately recognized her and asked her how she came to be in this situation. When she dropped you off, she demanded payment, not in cash but with your cock, which you willingly gave her."
 				},
 				{
 					"name": "Rose Byrne",
 					"image": "RoseByrne/2.jpg",
 					"modifier": "+1 Loyalty",
 					"perk": "Unlock A Friend in Need",
-					"description": ""
+					"description": "Rose had a loving family who cared for her and loved her. However, one day her husband and children died, in a house robbery gone wrong. She decided to extract revenge by going undercover as a getaway driver and killing the men who killed her family. After she got her revenge, she decided to keep working as a theif since the thrill excited her. When you met her, you got her to tell her entire story to you. You offered to make her feel better by giving support, however what she wanted more than that was a cock in her pussy, which you were happy to provide."
 				}
 			],
 			"pick": 1
@@ -347,28 +348,28 @@
 		{
 			"type": "choice",
 			"title": "Model",
-			"description": "Your crew's model will serve as an excuse for your crew to get into the casino. She has been invited as a guest to the casino for a photoshoot and your crew will appear as her assistants.",
+			"description": "Your crew's model will serve as an excuse for your crew to get into the casino. She has been invited as a guest to the casino for a photoshoot and your crew will appear as her assistants. She agreed to this deal because she was really lonely, and as such you have the important responsibility of making her feel like she is loved by a man. Being lonely, she offers her whole body to you and you accept. You use her as your bathing assistant, as your slutty cook and even as your sex slave. She gets 5% of the heist money.",
 			"choices": [
 				{
 					"name": "Nicola Cavanis",
 					"image": "NicolaCavanis/5.jpg",
 					"modifier": "+1 Desire",
 					"perk": "",
-					"description": ""
+					"description": "Nicola used to be a prude, until she became a lingerie model. When she saw the way people online admired her curvy body, she decided to go full slut and became a nude model on onlyfans. You found her doing a nude shoot in a public bathroom one day and seduced her. Now you get to fuck her and record it to show to the world that she belongs to you and you alone. She in turn gets to be your sugar baby and gets to enjoy being manhandled by you as your massive cock enters her perpetually wet pussy."
 				},
 				{
 					"name": "Alejandra Guilmant",
 					"image": "AlejandraGuilmant/1.jpg",
 					"modifier": "+1 Skill",
 					"perk": "",
-					"description": ""
+					"description": "Alejandra was born in a cartel family in Mexico. As such she was used to getting insane amounts of money and power. She became a swimsuit model to explore the world while also fucking whoever she wanted, whenever she wanted. When you met her at a fashion show, you instantly caught her eye. She called you to her mansion in Guadlajara to have a good time. When you reached you found the whole mansion filled with hot models as she invited you to start the orgy. What proceeded was you fucking all the models multiple times, creating moans loud enough to be heard by the entire city."
 				},
 				{
 					"name": "Miranda Kerr",
 					"image": "MirandaKerr/3.jpg",
 					"modifier": "+1 Loyalty",
 					"perk": "",
-					"description": ""
+					"description": "Miranda was the trophy wife of a rich hollywood actor. She married him solely for his wealth and fame, to get ahead in the modelling industry. However when he got cancelled on twitter and lost all his fame, she divorced him and took half his money. You met her at a party, and being the gold digger that she is she immediately tried to seduce you. You offered to be her sugar daddy as long as she would be your arm candy who you would take to parties to make other men jealous. She agreed and you both sealed the deal with hot, rough sex for the entire night."
 				}
 			],
 			"pick": 1
@@ -376,86 +377,148 @@
 		{
 			"type": "choice",
 			"title": "Seller",
-			"description": "",
+			"description": "While the seller is not officially part of your crew, she provides all the equipment and gear your crew needs as well as a place to sell the goods you steal that are not exactly liquid cash. You and the seller have a very long relationship, starting from when you were just a petty theif stealing people watches and jewellery to earn some extra cash. Of course, as with any relationship you have with a woman, you and the seller have regular sex on multiple occasions and have even had threesomes with your partner. In exchange for providing you the materials for the heists, she demands a cut and obviously your cock. She gets 5% of the heist money.",
 			"choices": [
 				{
 					"name": "Elizabeth Olsen",
-					"image": "ElizabethOlsen/4.jpg",
+					"image": "ElizabethOlsen/1.jpg",
 					"modifier": "+1 Desire",
 					"perk": "",
-					"description": ""
+					"description": "Elizabeth was an orphan and as such grew up in an orphanage. When she became old enough, she earned a scholarship to go study at Oxford, but what she ended up doing there was selling weed and drugs to the students. She established her network from Britain all the way back to America where she met you. While generally she would not sleep with her customers, you were different. You awoke something in her that she didn't even know existed. When you deflowered her, she instantly became addicted to your cock. Even now, outside of business, all she can think about is when you will come and fuck the living shit out of her and breed her."
 				},
 				{
 					"name": "Katy Perry",
 					"image": "KatyPerry/4.jpg",
 					"modifier": "+1 Skill",
-					"perk": "",
-					"description": ""
+					"perk": "Unlock Black and Pink",
+					"description": "Katy was involved in the music industry as a teen but slowly her fame faded away. However, from her contacts in the music industry, and in the sale of substances in her concerts, she was able to set up a reliable trading network. A slut, she can often be found taking many cocks at once while making business deals (she says cum helps her think). However, once she started dealing with you, she realises quality is better than quantity. Your one huge cock is enough to make her feel more pleasure than while getting DP'd in a gangbang. She still fucks people of course but no one can satisfy her like you can and as such she eagerly awaits your arrival in her store."
 				},
 				{
 					"name": "Kaya Scodelario",
-					"image": "KayaScodelario/4.jpg",
+					"image": "KayaScodelario/1.jpg",
 					"modifier": "+1 Loyalty",
 					"perk": "",
-					"description": ""
+					"description": "Kaya was the daughter of a mob boss. As she learned the tools of the trade from a very young age. When her father died, she became the don of the mob, running a large organised crime syndicate. After you both had worked together for a while, you started to realise that she had grown feelings towards you. One day while selling her a necklace, you decided to put it around her neck to show her how beautiful it is. When you were behind her, she took your hands and put them on her boobs and said \"I'm your property sir, please use me.\" You immediately took off your clothes and fucked her right then and there from behind, before cumming deep inside her."
 				}
 			],
 			"pick": 1
 		},
 		{
 			"type": "choice",
-			"title": "Owner",
-			"description": "",
+			"title": "Extra: Black and Pink",
+			"description": "Katy wants to improve her relationship with you and as such she often sets you up with her friends from the music industry. One day she tells you that her friends Jisso, Jennie and Rose from the korean group BlackPink were coming to your city and were looking for some quick and non-commited sex. Since they are often together, they are used to pleasuring each other and don't mind sharing you among all three of them. You obviously said yes and met all of them backstage. After making some small talk, Jisoo took off her top and crawled towards your groin, unbuckled your pants and started blowing you. Soon you had Jisoo blowing you, Jennie making out with you and Rose sucking your balls. You then fucked all three of them in threesomes, where whichever girl came gets replaced by the one waiting for her turn and masterbating on the side. After a fun filled night, you came inside all three of them multiple times and they left for their flights back to Korea, filled with cum.",
 			"choices": [
 				{
-					"name": "Natalia Dyer",
-					"image": "NataliaDyer/4.jpg",
-					"modifier": "-3 Desire",
+					"name": "Jisoo Kim",
+					"image": "JisooKim/1.jpg",
+					"modifier": "",
 					"perk": "",
 					"description": ""
+				},
+				{
+					"name": "Jennie Kim",
+					"image": "JennieKim/4.jpg",
+					"modifier": "",
+					"perk": "",
+					"description": ""
+				},
+				{
+					"name": "Roseanne Park",
+					"image": "RoseannePark/4.jpg",
+					"modifier": "",
+					"perk": "",
+					"description": ""
+				}
+			],
+			"pick": 0,
+			"condition": {
+				"conditional": "intersect",
+				"a": [
+					"Seller.name"
+				],
+				"b": [
+					"Katy Perry"
+				]
+			}
+		},
+		{
+			"type": "choice",
+			"title": "Owner",
+			"description": "The owner of the casino is a young, smart and enterprising woman, who will stop at nothing to make sure her ill gotten gains remain safe. You actually knew the owner since you both went to the same high school. You took her virginity in the boys washroom during one of the many steamy after-school dance practices you had. After a while you guys started dating, until her best friend seduced you into cheating on her. Heartbroken, the owner still hates you and wants to exact her revenge on you for what you did to her. (Provides negative stats)",
+			"choices": [
+				{
+					"name": "Brie Larson",
+					"image": "BrieLarson/5.jpg",
+					"modifier": "-3 Desire",
+					"perk": "",
+					"description": "Brie was the most popular girl in your high school. When you broke her heart, she decided to become a slutty lingerie model. After a very illustrious and sexy career, she retired young with her millions and opened her casino. This casino serves as a cover for her underground brothel, where she whores herself as well as other girls to rich businessmen for millions. You've been to the brothel many times, making sure to avoid Brie, but everytime you can see that she is clearly waiting for a certain cock to come and give her the pleasure she desires."
 				},
 				{
 					"name": "Margot Robbie",
 					"image": "MargotRobbie/2.jpg",
 					"modifier": "-3 Skill",
-					"perk": "",
-					"description": ""
+					"perk": "Unlock Espionage",
+					"description": "Margot was actually your favorite teacher in school. She was married when she started dating you and when you broke up with her, her sadness caused her to divorce her rich husband. In the divorce she got half of his assets, worth millions and his casino. Now she runs the casino with pinpoint precision, checking everything and everyone that goes in and out of the casino. Still everytime you see her, you can see that she is longing to be fucked from behind by her \"favorite student\" from all those years ago"
 				},
 				{
-					"name": "Brie Larson",
-					"image": "BrieLarson/5.jpg",
+					"name": "Natalia Dyer",
+					"image": "NataliaDyer/4.jpg",
 					"modifier": "-3 Loyalty",
 					"perk": "",
-					"description": ""
+					"description": "Natalia was the daughter of a rich oil baron who was too busy to spend any time with her. Raised by her conservative mother, she obviously had many daddy issues. Once she turned 18, she was able to distance herself from her mother, and explore her sexuality, starting with you. After you broke up with her, she went completely sex-sober and hasn't had a cock in her ever since. To make up for the hole you left in her, she put herself to work and established the casino. Still even today, you think she wants to be your little princess."
 				}
 			],
 			"pick": 1
 		},
 		{
+			"type": "photopara",
+			"title": "Extra: Espionage",
+			"celeb": {
+				"name": "Iris and Maude Apatow",
+				"image": "Threesomes/IrisApatowMaudeApatow.jpeg"
+			},
+			"description": [
+				"One day you heard a knock on your door. When you went to open it you saw 2 extremely hot young women trying to sell you some cookies. Thinking nothing of it, you invited them in. When your partner came out of the bedroom, she caught them red handed looking into your heist plans.",
+				"Your partner immediately arrested and captured them both. When you asked them who had sent them, Maude said that a blonde woman named Margot wanted to know if you were planning to steal from her casino. Seeing as they were both agents of Margot, you couldn't let them go until the heist was over.",
+				"You decided to keep them both in the dungeon. You later found out that the 2 actaully loved fucking older men together. Seeing this you pull out your dick and untie them. They quickly get on all fours and start sucking \"Daddy's meat scepter\" as your partner rips off their dresses.",
+				"After a while you decide to finally fuck them. You fuck Iris while your partner fucks Maude with a strap-on. They both make out with each other as they get fucked harder and harder. Eventually you are your partner switch slaves and fuck the other one. \"MOMMY AND DADDY PLEASE PUNISH US FOR TRYING TO SPY ON YOU!\" Maude says as you keep spanking her",
+				"This goes on every night until the heist is over. Every night you make Maude and Iris scream \"DADDY'S LONG COCK IS THE BEST!\" as they cum all over you and your partner. Once the heist is over, you send them both off, naked and filled with cum to be shamed for the sluts that they are."
+			],
+			"condition": {
+				"conditional": "intersect",
+				"a": [
+					"Owner.name"
+				],
+				"b": [
+					"Margot Robbie"
+				]
+			}
+		},
+		{
 			"type": "choice",
 			"title": "Rival",
-			"description": "",
+			"description": "Your rival was the girl you cheated on the owner with back in high school. Cold and calculating, she is one of the best theifs there is in the world. She often beats you to many heists and is almost as rich as you are, albeit a lot more lonely. When you two meet each other, she often tries to seduce you, only to stab you in the back and steal your shit. Luckily you are aware of this and put an end to her antics as soon as possible, after fucking her of course.",
 			"choices": [
 				{
 					"name": "Sydney Sweeny",
 					"image": "SydneySweeny/4.jpg",
 					"modifier": "-2 Desire",
 					"perk": "",
-					"description": ""
+					"description": "Sydney was the high school slut back in the day. You are sure she has had more cocks in her than there are grains of sand in an hourglass. Yet everytime you enter her pussy, it feels tight and virgin. She became a theif after she graduated high school to get away from the boring life her parents had planned for her. She generally uses her wealth to hire giggolo sugar babies who she dommes and bosses around the house, however with you she is extremely submissive, partly because she likes it and partly because you intimidate her."
 				},
 				{
 					"name": "Madelaine Petsch",
 					"image": "MadelainePetsch/4.jpg",
 					"modifier": "-2 Skill",
 					"perk": "",
-					"description": ""
+					"description": "Madelaine was the cheer captain back in high school. As such, she had dated all the boys on the sports team. When you cheated on the owner with her, you realised quickly that she was in fact a kleptomaniac. She would date all the sports team members, only to steal their passwords, keycodes and keys. She would then break into their house at night and steal all their valuables, selling them to buy herself new things. When she graduated, she continued stealing things from people until she got to the point shes at right now."
 				},
 				{
 					"name": "Sophie Turner",
 					"image": "SophieTurner/5.jpg",
 					"modifier": "-2 Loyalty",
 					"perk": "",
-					"description": ""
+					"description": "Sophie was a rich brat who wanted everything and everyone to be hers. As such she made you cheat on the owner to take you as hers. She wanted to date you and eventually marry you, however you broke it off once you broke up with the owner. Still she longs to \"capture\" you and make you hers forever. To please you, she is willing to go through with any of your kinks, so long as the people know that you are hers and that she is yours. She thinks this will get you to finally like her enough to be with her, however it just allows you to use her for kinky sex"
 				}
 			],
 			"pick": 1
@@ -463,28 +526,28 @@
 		{
 			"type": "choice",
 			"title": "Cop",
-			"description": "",
+			"description": "The commissioner of police of the country, the cop has the important duty of stopping your heists and arresting you. Luckily she is also very willing to accept bribes, in both sex and money. Often you find her calling you for a top-up on her bribes, which you are more than happy to provide with your cock. In exchange she tells you exactly what the police are going to do to thwart your plans as well as make plans that ensure you and your crew won't get caught during the heist.",
 			"choices": [
 				{
-					"name": "Alison Brie",
-					"image": "AlisonBrie/11.jpg",
+					"name": "Debby Ryan",
+					"image": "DebbyRyan/3.jpg",
 					"modifier": "-1 Desire",
 					"perk": "",
-					"description": ""
+					"description": "Debby was made the commissioner of police simply because her father was the prime minister and had put her in the position to set her right. What he didn't know was that Debby would abuse her position to have all sorts of criminals please her and her fellow officers. Debby often offers hot criminals their freedom, in exchange for making her cum everyday for a week. When she gave you the same deal, you were able to make her cum 10 times on the first day, prompting her to free you and giving you free access to her house to come and fuck her at anytime."
 				},
 				{
 					"name": "Amber Heard",
 					"image": "AmberHeard/5.jpg",
 					"modifier": "-1 Skill",
 					"perk": "",
-					"description": ""
+					"description": "Amber was the top graduate of her batch at the police academy. She is a skilled detective and a rough fighter, however she was unable to get the promotions she desired in the police because she would not take bribes. Running out of options, she started taking bribes from all sorts of people to both get the promotion she desired. When she met you, she asked you to fill her pockets with cash, but you suggested filling her pussy with your cum. She jokingly said that you couldn't get her off. That night you showed her just how wrong she was, making her cum 12 times."
 				},
 				{
-					"name": "Debby Ryan",
-					"image": "DebbyRyan/3.jpg",
+					"name": "Alison Brie",
+					"image": "AlisonBrie/11.jpg",
 					"modifier": "-1 Loyalty",
 					"perk": "",
-					"description": ""
+					"description": "Alison was a nerd who got the promotion to commissioner because no one else wanted it. She was a great planner but in any field situation would find herself captured. Such a situation arose when she tried to catch you in one of your heists. After capturing her, you fucked her virgin pussy, and making her addicted to your cock. When you let her go, she misinformed the police allowing you to get away with your heists. Every week, she shows up at your door, with handcuffs, so that you can cuff her and fuck her from behind as she was helpless to stop you and your cock."
 				}
 			],
 			"pick": 1
@@ -493,45 +556,264 @@
 			"type": "ending",
 			"traits": {
 				"Desire": {
-					"maximum": false,
-					"upper": 5,
+					"maximum": true,
+					"upper": 10,
 					"lower": 1
 				},
 				"Skill": {
 					"maximum": false,
-					"upper": 2,
+					"upper": 10,
 					"lower": 0
 				},
 				"Loyalty": {
 					"maximum": false,
-					"upper": 2,
+					"upper": 10,
 					"lower": 0
 				}
 			},
-			"title": "Complete Aristocracy Ending",
-			"description": "Your efforts help establish a new aristocratic commonwealth. The Duchess marries you making you a duke of the commonwealth. You convince all of the women you selected to join your harem. You also receive a large manor where you house your harem alongwith your wife and her daughter, Taylor.",
+			"title": "Desire Success",
+			"description": "Your heist succeeds and your crew shares the heist money. Your crew, now addicted to your cock, joined your harem. You marry your partner and she serves as your harem manager, fucking your harem, with or without you.",
 			"data": [
 				{
+					"type": "photopara",
+					"title": "Extra: Reconcilliation",
+					"celeb": {
+						"name": "Brie Larson",
+						"image": "BrieLarson/7.jpg"
+					},
+					"description": [
+						"After the heist, Brie showed up at your door, now that she was broke. \"I know you robbed me! I can't prove it but I know it!\" she said",
+						"\"Regardless, I had to declare bankruptcy and all my investors are after me now. You are the only one who can save me. So please let me stay with you for a while.\" she demanded.",
+						"Interested you told her that she could stay as long as she stayed quiet about the heist, let you fuck her freeuse whenever she wanted and serve as your maid for a month.",
+						"Out of options she agreed and you and your harem made her your fuckpet. After her maid punishment was over, you took her as your second wife and got rid of her debt.",
+						"You now have both her and your partners as bedwarmers every night. When you would wake up, Brie would give you a morning blowjob as you made out with your partner. All three of you would then spend the day fucking your harem"
+					],
+					"condition": {
+						"conditional": "intersect",
+						"a": [
+							"Owner.name"
+						],
+						"b": [
+							"Brie Larson"
+						]
+					}
+				},
+				{
 					"type": "choice",
-					"title": "Cousins",
-					"description": "As a count, you have entered a family with many branches and thus have many cousins, most of whom are hot women. Interestingly, in the aristocracy incest is not only allowed but encouraged to keep the bloodline pure. As such, many of your cousins want you to fuck them and want to join your harem. (Choose 3)",
-					"pick": 3,
+					"title": "Sugar-Babies",
+					"description": "Your partner comes up to you one day and introduces two of her \"friends\" who are college students. She explains that her friends are broke and need money to live. As you are rich, its obvious that she wants you to help her friends, but being the businessman you are you need something in return. Hearing the two girls start making out with each other and they both start stripping. After you fill them both with cum, you make them sign a sugar-baby contract, officially making them your ward and allowing you to use her however you desire, in exchange for room and board in your mansion. (Top row are undergraduates, Bottom row is postgraduates. You can mix and match but the text might not make sense)",
+					"pick": 2,
 					"choices": [
 						{
 							"name": "Madison Beer",
 							"image": "MadisonBeer/1.jpg"
 						},
 						{
-							"name": "Camila Mendes",
-							"image": "CamilaMendes/1.jpg"
+							"name": "Cara Delevingne",
+							"image": "CaraDelevingne/2.jpg"
 						},
 						{
-							"name": "Zendaya Coleman",
-							"image": "ZendayaColeman/1.jpg"
+							"name": "Jordyn Jones",
+							"image": "JordynJones/3.jpg"
+						},
+						{
+							"name": "Zooey Deschanel",
+							"image": "ZooeyDeschanel/2.jpg"
+						},
+						{
+							"name": "Jennifer Lawrence",
+							"image": "JenniferLawrence/2.jpg"
+						},
+						{
+							"name": "Elizabeth Gillies",
+							"image": "ElizabethGillies/5.jpg"
 						}
 					]
 				}
 			]
+		},
+		{
+			"type": "ending",
+			"traits": {
+				"Desire": {
+					"maximum": false,
+					"upper": 10,
+					"lower": 0
+				},
+				"Skill": {
+					"maximum": true,
+					"upper": 10,
+					"lower": 1
+				},
+				"Loyalty": {
+					"maximum": false,
+					"upper": 10,
+					"lower": 0
+				}
+			},
+			"title": "Skill Success",
+			"description": "Your heist succeeds and your crew shares the heist money. Your crew, in hopes of doing more heists with you, joined your harem. You marry your partner and she serves as your harem manager, fucking your harem, with or without you.",
+			"data": [
+				{
+					"type": "photopara",
+					"title": "Extra: Reconcilliation",
+					"celeb": {
+						"name": "Margot Robbie",
+						"image": "MargotRobbie/1.jpg"
+					},
+					"description": [
+						"After the heist, Margot showed up at your door, now that she was broke. \"I know you robbed me! I can't prove it but I know it!\" she said",
+						"\"Regardless, I had to declare bankruptcy and all my investors are after me now. You are the only one who can save me. So please let me stay with you for a while.\" she demanded.",
+						"Interested you told her that she could stay as long as she stayed quiet about the heist, let you fuck her freeuse whenever she wanted and serve as your concubine for a month.",
+						"Out of options she agreed and you made her your fuckpet. After her concubine punishment was over, you took her as your second wife and got rid of her debt.",
+						"You now have both her and your partners as bedwarmers every night. When you would wake up, Margot would give you a morning titjob as you made out with your partner. All three of you would then spend the day fucking your harem"
+					],
+					"condition": {
+						"conditional": "intersect",
+						"a": [
+							"Owner.name"
+						],
+						"b": [
+							"Margot Robbie"
+						]
+					}
+				},
+				{
+					"type": "choice",
+					"title": "Athelete",
+					"description": "After the heist, you receive an email from two local atheletes. They are looking for sporting facilities in the region where they can train for the olympics. Being rich, you offer your mansion which is equiped with the latest equipment. You tell them that if they want to use your mansion's facilities they will have to pay for them in kind. Hearing this they take off their sports bras and start making out with you. After you fill them up with cum, you hire them as personal trainers and a recruited atheletes who are free to use the facilities on your mansion, in exchange for regular private \"excercise\" sessions with you. (Top row are college atheletes, Bottom row are MILF atheletes. You can mix and match but the text might not make sense)",
+					"pick": 2,
+					"choices": [
+						{
+							"name": "Alexandra Daddario",
+							"image": "AlexandraDaddario/2.jpg"
+						},
+						{
+							"name": "Disha Patani",
+							"image": "DishaPatani/1.jpg"
+						},
+						{
+							"name": "Hailee Steinfeld",
+							"image": "HaileeSteinfeld/2.jpg"
+						},
+						{
+							"name": "Jennifer Connelly",
+							"image": "JenniferConnelly/3.jpg"
+						},
+						{
+							"name": "Jewel Staite",
+							"image": "JewelStaite/3.jpg"
+						},
+						{
+							"name": "Yanet Garcia",
+							"image": "YanetGarcia/2.jpg"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "ending",
+			"traits": {
+				"Desire": {
+					"maximum": false,
+					"upper": 10,
+					"lower": 0
+				},
+				"Skill": {
+					"maximum": false,
+					"upper": 10,
+					"lower": 0
+				},
+				"Loyalty": {
+					"maximum": true,
+					"upper": 10,
+					"lower": 1
+				}
+			},
+			"title": "Loyalty Success",
+			"description": "Your heist succeeds and your crew shares the heist money. Your crew, loyal to you with all their hearts, joined your harem. You marry your partner and she serves as your harem manager, fucking your harem, with or without you.",
+			"data": [
+				{
+					"type": "photopara",
+					"title": "Extra: Reconcilliation",
+					"celeb": {
+						"name": "Natalia Dyer",
+						"image": "NataliaDyer/3.jpg"
+					},
+					"description": [
+						"After the heist, Natalia showed up at your door, now that she was broke. \"I know you robbed me! I can't prove it but I know it!\" she said",
+						"\"Regardless, I had to declare bankruptcy and all my investors are after me now. You are the only one who can save me. So please let me stay with you for a while.\" she demanded.",
+						"Interested you told her that she could stay as long as she stayed quiet about the heist, let you fuck her freeuse whenever she wanted and serve as your cumbucket for a month.",
+						"Out of options she agreed and you made her your cumbucket. After her cumbucket punishment was over, you took her as your second wife and got rid of her debt.",
+						"You now have both her and your partners as bedwarmers every night. When you would wake up, Natalia would fuck you sweetly in cowgirl as you made out with your partner. All three of you would then spend the day fucking your harem"
+					],
+					"condition": {
+						"conditional": "intersect",
+						"a": [
+							"Owner.name"
+						],
+						"b": [
+							"Natalia Dyer"
+						]
+					}
+				},
+				{
+					"type": "choice",
+					"title": "Stepfamily",
+					"description": "One day your stepmom and stepsis gives you a surprise visit. When they find out about your harem, they are at first repulsed. However, at night, your stepmother and stepsister come to your room and say they want to know how one can join the harem. You immediately start groping your stepmom and making out with your stepsister, explaining to the two of them that they just need to have sex with you to join. That night you took your sister's virginity and made her a woman, while your stepmom masterbated and made out with you. Consequently, they decided to stay with you and live a life of pleasure. (Top row is stepmom and Bottom row is stepsister. You can mix and match but the text might not make sense)",
+					"pick": 2,
+					"choices": [
+						{
+							"name": "Rachel McAdams",
+							"image": "RachelMcAdams/2.jpg"
+						},
+						{
+							"name": "Mary E Winstead",
+							"image": "MaryWinstead/1.jpg"
+						},
+						{
+							"name": "Felicity Jones",
+							"image": "FelicityJones/12.jpg"
+						},
+						{
+							"name": "Deborah Ann Woll",
+							"image": "DeborahAnnWoll/7.jpg"
+						},
+						{
+							"name": "Emma Stone",
+							"image": "EmmaStone/1.jpg"
+						},
+						{
+							"name": "Jia Lissa",
+							"image": "JiaLissa/1.jpg"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "ending",
+			"traits": {
+				"Desire": {
+					"maximum": false,
+					"upper": 0,
+					"lower": -10
+				},
+				"Skill": {
+					"maximum": false,
+					"upper": 0,
+					"lower": -10
+				},
+				"Loyalty": {
+					"maximum": true,
+					"upper": 0,
+					"lower": -10
+				}
+			},
+			"title": "Failure",
+			"description": "Your heist fails and your crew is arrested. Luckily, you were able to manipulate the law so that you could escape scot-free. Unfortunately, the Owner caught wind of your plans and sent out a hit crew after you. They captured you and took you to the owner for her to use you as fuckpet. She dominates you day and night, not letting you cum and spanking the shit out of you. Eventually, she gets bored with you and has you locked in a casino vault to starve to death.",
+			"data": []
 		}
 	]
 }

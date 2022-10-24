@@ -40,6 +40,31 @@ function App() {
 		return initialState;
 	}
 
+	function copyHarem() {
+		var result = "";
+
+		console.log(gameState);
+
+		_.forIn(gameState, (member: any, role) => {
+			console.log(member);
+			if (typeof member !== "number" && member.length > 0) {
+				result = result + role + ": ";
+				member.forEach((mem: any) => {
+					result = result + mem.name + ", ";
+				});
+
+				result = result + "\n";
+			}
+		});
+		_.forIn(stateTraits, (value: any, trait) => {
+			result = result + trait + ": ";
+			result = result + value.toString();
+			result = result + "\n";
+		});
+
+		console.log(result);
+	}
+
 	function conditionParser(condition?: {
 		conditional: string;
 		a: string[];
@@ -57,11 +82,11 @@ function App() {
 					});
 				} else if (gameState[aArray[0]]) {
 					a = gameState[aArray[0]];
+					ayys.push(a);
 				} else {
 					a = "";
 				}
 			});
-			console.log(ayys);
 			return {
 				conditional: condition.conditional,
 				a: ayys,
@@ -77,6 +102,15 @@ function App() {
 		_.set(stateTraits, trait as string, gameState[trait]);
 	});
 
+	var values: any[] = _.values(gameState);
+	var harem: any[] = [];
+
+	values.forEach((value) => {
+		if (typeof value !== "number") {
+			harem.push(value[0]);
+		}
+	});
+
 	return (
 		<React.Fragment>
 			<main>
@@ -88,6 +122,7 @@ function App() {
 					if (component.type === "choice" && component.choices) {
 						return (
 							<Choice
+								key={component.title}
 								title={component.title}
 								choices={component.choices}
 								description={component.description}
@@ -103,6 +138,7 @@ function App() {
 					) {
 						return (
 							<Paragraph
+								key={component.title}
 								title={component.title}
 								description={component.description}
 							></Paragraph>
@@ -113,6 +149,7 @@ function App() {
 					) {
 						return (
 							<Photopara
+								key={component.title}
 								title={component.title}
 								condition={conditionParser(component.condition)}
 								celeb={component.celeb}
@@ -127,6 +164,7 @@ function App() {
 					) {
 						return (
 							<Ending
+								key={component.title}
 								title={component.title}
 								description={component.description}
 								traits={component.traits}
@@ -140,7 +178,21 @@ function App() {
 						return <></>;
 					}
 				})}
+				<div>
+					<Choice
+						title="Your Harem"
+						choices={harem ? harem : []}
+						description={""}
+						maxChoice={0}
+						setState={() => {}}
+						state={{}}
+					/>
+				</div>
+				<div className="paragraph" onClick={() => copyHarem()}>
+					CLICK HERE TO COPY CHOICES
+				</div>
 			</main>
+
 			<div className="traits">
 				{traits.map((trait: any) => (
 					<p>{trait + " : " + gameState[trait]}</p>
